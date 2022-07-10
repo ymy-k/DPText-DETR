@@ -8,6 +8,7 @@
   <a href="#Updates">Updates</a> |
   <a href="#Introduction">Introduction</a> |
   <a href="#Main Results">Main Results</a> |
+  <a href="#Inverse-Text">Inverse-Text</a> |
   <a href="#Acknowledgment">Acknowledgment</a> |
   <a href="#Citation">Citation</a> |
 </p >
@@ -30,6 +31,8 @@
 |Total-Text|Res50|91.8|86.4|89.0|-|-|
 |CTW1500|Res50|91.7|86.2|88.8|-|-|
 |ICDAR19 ArT|Res50|83.0|73.7|78.1|-|-|
+
+## Inverse-Text
 
 ## Acknowledgement
 
