@@ -10,7 +10,6 @@
   <a href="#Main Results">Main Results</a> |
   <a href="#Acknowledgment">Acknowledgment</a> |
   <a href="#Citation">Citation</a> |
-  <a href="#Other Links">Other Links</a>
 </p >
 
 *This is the official repo for the paper "DPText-DETR: Towards Better Scene Text Detection with Dynamic Points in Transformer".*
