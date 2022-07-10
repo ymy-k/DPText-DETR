@@ -39,8 +39,10 @@ Some detection results:
 
 ## Inverse-Text
 
-## Acknowledgement
+(Script)
 
 ## Citation
 
-## Other Links
+## Acknowledgement
+
+This work is inspired a lot by [Deformable DETR](https://github.com/fundamentalvision/Deformable-DETR), [DAB-DETR](https://github.com/IDEA-opensource/DAB-DETR), and [TESTR](https://github.com/mlpc-ucsd/TESTR). The code is based on [AdelaiDet](https://github.com/aim-uofa/AdelaiDet) and TESTR. Thanks for their great works!
