@@ -20,7 +20,7 @@
 ***
 
 ## Updates
->***[10/7/2022]*** The paper is submitted to ArXiv. Inverse-Text test set will be available very soon. The code and models will be release once cleaned up.
+>***[10/7/2022]*** The paper is submitted to ArXiv. Inverse-Text test set will be available very soon. Work in progress.
 
 ## Introduction
 
@@ -41,11 +41,16 @@ Some detection results:
 
 ## Inverse-Text
 
-(Script)
+Inverse-Text is a test set with 500 images. About 40% text instances are inverse-like, and some of them are mirrored due to photographing. The background mainly includes outdoor scenes and some commodity packagings. Word-level polygon annotations are provided. Non-latin texts are annotated as "don't care". Inverse-Text is for research purpose only. Hope Inverse-Text is useful to your research. Looking forward to your suggestions. Some samples are shown as following.
 
-## Citation
+Inverse-Text **testing images** can be downloaded here: [OneDrive]() | [百度网盘]() (password:). *Note that "test_poly.json" is only used to read images.*
+
+**The ground-truths and lexicons** can be downloaded here: [OneDrive]() | [百度网盘]() (password:). *Note that the ground-truths are processed into the form used in AdelaiDet.*
 
 <!--
+## Citation
+
+
 ## Acknowledgement
 
 This work is inspired a lot by [Deformable DETR](https://github.com/fundamentalvision/Deformable-DETR), [DAB-DETR](https://github.com/IDEA-opensource/DAB-DETR), and [TESTR](https://github.com/mlpc-ucsd/TESTR). The code is based on [AdelaiDet](https://github.com/aim-uofa/AdelaiDet) and TESTR. Thanks for their great works!
