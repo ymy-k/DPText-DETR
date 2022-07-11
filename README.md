@@ -41,7 +41,9 @@ Some detection results:
 
 ## Inverse-Text
 
-Inverse-Text is a test set with 500 images. About 40% text instances are inverse-like, and some of them are mirrored due to photographing. The background mainly includes outdoor scenes and some commodity packagings. Word-level polygon annotations are provided. Non-latin texts are annotated as "don't care". Inverse-Text is for research purpose only. Hope Inverse-Text is useful to your research. Looking forward to your suggestions. Some samples are shown as following.
+Inverse-Text is a test set with 500 images. About 40% text instances are inverse-like, and some of them are mirrored due to photographing. Text background mainly include outdoor scenes and some commodity packagings. Word-level polygon annotations are provided. Non-latin texts are annotated as "don't care". Inverse-Text is for research purpose only. Hope Inverse-Text is useful to your research. Looking forward to your suggestions. Some samples are shown as following.
+
+![image](./figs/inversetext_samples.png)
 
 **Inverse-Text testing images** can be downloaded here: [OneDrive]() | [百度网盘]() (password:). *Note that "test_poly.json" is only used to read images.*
 
