@@ -20,6 +20,8 @@
 ***
 
 ## Updates
+>***[12/7/2022]*** Inverse-Text is available.
+>
 >***[10/7/2022]*** The paper is submitted to ArXiv. Inverse-Text test set will be available very soon. Work in progress.
 
 ## Introduction
@@ -43,15 +45,28 @@ Some detection results:
 
 Inverse-Text is a test set with 500 images. About 40% text instances are inverse-like, and some of them are mirrored due to photographing. Text background mainly include outdoor scenes and some commodity packagings. Word-level polygon annotations are provided. Non-latin texts are annotated as "don't care". Inverse-Text is for research purpose only. Hope Inverse-Text is useful to your research. Looking forward to your suggestions. Some samples are shown as following.
 
-![image](./figs/inversetext_samples.png)
+![image](./figs/invertext_samples.png)
 
-**Inverse-Text testing images** can be downloaded here: [OneDrive]() | [百度网盘]() (password:). *Note that "test_poly.json" is only used to read images.*
+**Inverse-Text testing images** can be downloaded here: [OneDrive](https://1drv.ms/u/s!AimBgYV7JjTlgTiv8qL6mJp-SrBE?e=ICt6cW) | [百度网盘](https://pan.baidu.com/s/1Rdce4IsbMo42xMU5L4Csjg) (password:w4fq). *Note that "test_poly.json" is only used to read images.*
 
-**The ground-truths and lexicons** can be downloaded here: [OneDrive]() | [百度网盘]() (password:). *Note that the ground-truths are processed into the form used in AdelaiDet.*
+**The ground-truths and lexicons** can be downloaded here: [OneDrive](https://1drv.ms/u/s!AimBgYV7JjTlgTdcZjyZWAlCGem7?e=Nq27wp) | [百度网盘](https://pan.baidu.com/s/1t-7KOtoDU95RXtbxaN6-GA) (password:0bc8). *Note that the ground-truths are processed into the form used in AdelaiDet.*
+
+The file structure should look like:
+```
+|- datasets
+    |- inversetext
+    |   |- annotations
+    |   |- test_images
+    |- evaluation
+    |   |- lexicons
+    |   |- gt_totaltext.zip
+    |   |- gt_ctw1500.zip
+    |   |- gt_inversetext.zip
+    ......
+```
 
 <!--
 ## Citation
-
 
 ## Acknowledgement
 
