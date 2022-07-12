@@ -1,10 +1,8 @@
 <h1 align="center"> DPText-DETR: Towards Better Scene Text Detection with Dynamic Points in Transformer </h1> 
 
-<!--
 <p align="center">
-<a href="https://arxiv.org"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a>
+<a href="https://arxiv.org/abs/2207.04491"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a>
 </p>
--->
 
 <p align="center">
   <a href="#Updates">Updates</a> |
@@ -43,13 +41,13 @@ Some detection results:
 
 ## Inverse-Text
 
-Inverse-Text is a test set with 500 images. About 40% text instances are inverse-like, and some of them are mirrored due to photographing. Text background mainly include outdoor scenes and some commodity packagings. Word-level polygon annotations are provided. Non-latin texts are annotated as "don't care". Inverse-Text is for research purpose only. Hope it could facilitate future research on more advanced and robust end-to-end spotting models. Looking forward to your suggestions. Some samples are shown as following.
+Inverse-Text is a test set with 500 images. About 40% text instances are inverse-like, and some of them are mirrored due to photographing. Text background mainly include outdoor scenes and some commodity packagings. Word-level polygon annotations are provided. Non-latin texts are annotated as "don't care". **Inverse-Text is for research purpose only**. Hope it could facilitate future research on more advanced and robust end-to-end spotting models. Looking forward to your suggestions. Some samples are shown as following.
 
 ![image](./figs/invertext_samples.png)
 
 **Inverse-Text testing images** can be downloaded here: [OneDrive](https://1drv.ms/u/s!AimBgYV7JjTlgTiv8qL6mJp-SrBE?e=ICt6cW) | [百度网盘](https://pan.baidu.com/s/1Rdce4IsbMo42xMU5L4Csjg) (password:w4fq). *Note that "test_poly.json" is only used to read images.*
 
-**The ground-truths and lexicons** can be downloaded here: [OneDrive](https://1drv.ms/u/s!AimBgYV7JjTlgTdcZjyZWAlCGem7?e=Nq27wp) | [百度网盘](https://pan.baidu.com/s/1t-7KOtoDU95RXtbxaN6-GA) (password:0bc8). *Note that the ground-truths are processed into the form used in AdelaiDet.*
+**The ground-truths and lexicons** can be downloaded here: [OneDrive](https://1drv.ms/u/s!AimBgYV7JjTlgTdcZjyZWAlCGem7?e=Nq27wp) | [百度网盘](https://pan.baidu.com/s/1t-7KOtoDU95RXtbxaN6-GA) (password:0bc8). *Note that the ground-truths are processed into the form used in [AdelaiDet](https://github.com/aim-uofa/AdelaiDet) as [TESTR](https://github.com/mlpc-ucsd/TESTR).*
 
 The file structure should look like:
 ```
