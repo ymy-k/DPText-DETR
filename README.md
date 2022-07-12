@@ -70,5 +70,5 @@ The code is based on [AdelaiDet](https://github.com/aim-uofa/AdelaiDet) and TEST
 
 ## Acknowledgement
 
-This work is inspired a lot by [Deformable DETR](https://github.com/fundamentalvision/Deformable-DETR), [DAB-DETR](https://github.com/IDEA-opensource/DAB-DETR), and [TESTR](https://github.com/mlpc-ucsd/TESTR). Thanks for their great works!
+DPText-DETR is inspired a lot by [Deformable DETR](https://github.com/fundamentalvision/Deformable-DETR), [DAB-DETR](https://github.com/IDEA-opensource/DAB-DETR), and [TESTR](https://github.com/mlpc-ucsd/TESTR). Thanks for their great works!
 
