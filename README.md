@@ -10,7 +10,7 @@
   <a href="#Main Results">Main Results</a> |
   <a href="#Inverse-Text">Inverse-Text</a> |
   <a href="#Citation">Citation</a> |
-  <a href="#Acknowledgment">Acknowledgment</a>
+  <a href="#Acknowledgment">Acknowledgement</a>
 </p >
 
 *This is the official repo for the paper "DPText-DETR: Towards Better Scene Text Detection with Dynamic Points in Transformer".*
@@ -63,10 +63,16 @@ The file structure should look like:
     ......
 ```
 
-<!--
 ## Citation
-The code is based on [AdelaiDet](https://github.com/aim-uofa/AdelaiDet) and TESTR.
--->
+```
+@article{ye2022dptext,
+  title={DPText-DETR: Towards Better Scene Text Detection with Dynamic Points in Transformer},
+  author={Ye, Maoyuan and Zhang, Jing and Zhao, Shanshan and Liu, Juhua and Du, Bo and Tao, Dacheng},
+  journal={arXiv e-prints},
+  pages={arXiv--2207},
+  year={2022}
+}
+```
 
 ## Acknowledgement
 
