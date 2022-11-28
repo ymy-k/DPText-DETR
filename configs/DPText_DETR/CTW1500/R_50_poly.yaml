@@ -1,0 +1,26 @@
+_BASE_: "../Base.yaml"
+
+DATASETS:
+  TRAIN: ("ctw1500_poly_train_rotate_pos",)
+  TEST: ("ctw1500_poly_test",)
+
+MODEL:
+  WEIGHTS: "output/r_50_poly/pretrain/model_final.pth" # or the provided pre-trained model
+
+SOLVER:
+  IMS_PER_BATCH: 8
+  BASE_LR: 2e-5
+  LR_BACKBONE: 2e-6
+  WARMUP_ITERS: 0
+  STEPS: (100000,) # no step
+  MAX_ITER: 13000
+  CHECKPOINT_PERIOD: 13000
+
+INPUT:
+  MIN_SIZE_TEST: 1000 
+  MAX_SIZE_TEST: 1280
+
+TEST:
+  EVAL_PERIOD: 1000
+
+OUTPUT_DIR: "output/r_50_poly/ctw1500/finetune"

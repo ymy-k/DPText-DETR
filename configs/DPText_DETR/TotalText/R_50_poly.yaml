@@ -1,0 +1,22 @@
+_BASE_: "../Base.yaml"
+
+DATASETS:
+  TRAIN: ("totaltext_poly_train_rotate_pos",)
+  TEST: ("totaltext_poly_test",)  # or "inversetext_test", "totaltext_poly_test_rotate"
+
+MODEL:
+  WEIGHTS: "output/r_50_poly/pretrain/model_final.pth"  # or the provided pre-trained model
+
+SOLVER:
+  IMS_PER_BATCH: 8
+  BASE_LR: 5e-5
+  LR_BACKBONE: 5e-6
+  WARMUP_ITERS: 0
+  STEPS: (16000,)
+  MAX_ITER: 20000
+  CHECKPOINT_PERIOD: 20000
+
+TEST:
+  EVAL_PERIOD: 1000
+
+OUTPUT_DIR: "output/r_50_poly/totaltext/finetune"

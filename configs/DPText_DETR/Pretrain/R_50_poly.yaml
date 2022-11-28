@@ -1,0 +1,22 @@
+_BASE_: "../Base.yaml"
+
+DATASETS:
+  TRAIN: ("syntext1_poly_train_pos", "syntext2_poly_train_pos", "mlt_poly_train_pos", "totaltext_poly_train_pos",)
+  TEST: ("totaltext_poly_test",)
+
+MODEL:
+  WEIGHTS: "detectron2://ImageNetPretrained/torchvision/R-50.pkl"
+
+SOLVER:
+  IMS_PER_BATCH: 8
+  BASE_LR: 1e-4
+  LR_BACKBONE: 1e-5
+  WARMUP_ITERS: 0
+  STEPS: (280000,)
+  MAX_ITER: 350000
+  CHECKPOINT_PERIOD: 100000
+
+TEST:
+  EVAL_PERIOD: 10000
+
+OUTPUT_DIR: "output/r_50_poly/pretrain"
