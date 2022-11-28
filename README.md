@@ -29,7 +29,7 @@ This is the official repo for the paper "DPText-DETR: Towards Better Scene Text 
 
 ## Main Results
 
-|Benchmark|Backbone|Precision|Recall|F-measure|Pre-trained Model|Finetuned Model|
+|Benchmark|Backbone|Precision|Recall|F-measure|Pre-trained Model|Fine-tuned Model|
 |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
 |Total-Text|Res50|91.8|86.4|89.0|[OneDrive](https://1drv.ms/u/s!AimBgYV7JjTlgccGbLGc9wYB-CGfpg?e=kpyje7)/[Baidu](https://pan.baidu.com/s/1MatDxMtAc2HhI56otNQ3pA)(osxo)|[OneDrive](https://1drv.ms/u/s!AimBgYV7JjTlgccKyruwWCE09pdxnA?e=sMx7fq)/[Baidu](https://pan.baidu.com/s/1Vs69ZGp9HeJzGqptupx3uw)(p268)|
 |CTW1500|Res50|91.7|86.2|88.8|*The same as above* ↑|[OneDrive](https://1drv.ms/u/s!AimBgYV7JjTlgccJzxovPI8jwlbDzg?e=IUAYHv)/[Baidu](https://pan.baidu.com/s/1a5eUHOwK1udHSD3ZP21TdA)(disp)|
