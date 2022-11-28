@@ -12,7 +12,7 @@
   <a href="#Citation">Citation</a> |
   <a href="#Acknowledgment">Acknowledgement</a>
 </p >
-*This is the official repo for the paper "DPText-DETR: Towards Better Scene Text Detection with Dynamic Points in Transformer".*
+This is the official repo for the paper "DPText-DETR: Towards Better Scene Text Detection with Dynamic Points in Transformer".
 
 ## Introduction
 
@@ -54,7 +54,7 @@ python setup.py build develop
 
 - ### Data Preparation
 
->**SynthText-150K & MLT & LSVT (images):**  [Source]([AdelaiDet/datasets at master · aim-uofa/AdelaiDet (github.com)](https://github.com/aim-uofa/AdelaiDet/tree/master/datasets)). 
+>**SynthText-150K & MLT & LSVT (images):**  [Source](https://github.com/aim-uofa/AdelaiDet/tree/master/datasets) 
 >
 >**Total-Text (including rotated images)**: [OneDrive](https://1drv.ms/u/s!AimBgYV7JjTlgccOW1TUlgm64M0yRA?e=jwY6b1)
 >
