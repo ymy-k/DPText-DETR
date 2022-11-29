@@ -1,7 +1,7 @@
 <h1 align="center"> DPText-DETR: Towards Better Scene Text Detection with Dynamic Points in Transformer </h1> 
 
 <p align="center">
-<a href="https://arxiv.org/abs/2207.04491.pdf"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a>
+<a href="https://arxiv.org/abs/2207.04491v2.pdf"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a>
 </p>
 
 <p align="center">
