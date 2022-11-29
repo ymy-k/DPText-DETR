@@ -12,7 +12,7 @@
   <a href="#Citation">Citation</a> |
   <a href="#Acknowledgment">Acknowledgement</a>
 </p >
-This is the official repo for the paper "DPText-DETR: Towards Better Scene Text Detection with Dynamic Points in Transformer".
+This is the official repo for the paper "DPText-DETR: Towards Better Scene Text Detection with Dynamic Points in Transformer", which is accepted to AAAI 2023.
 
 ## Introduction
 
@@ -151,13 +151,12 @@ python demo/demo.py --config-file ${CONFIG_FILE} --input ${IMAGES_FOLDER_OR_ONE_
 ## Citation
 
 If you find DPText-DETR useful in your research, please consider citing:
-```
-@article{ye2022dptext,
+```bibtex
+@inproceedings{ye2022dptext,
   title={DPText-DETR: Towards Better Scene Text Detection with Dynamic Points in Transformer},
   author={Ye, Maoyuan and Zhang, Jing and Zhao, Shanshan and Liu, Juhua and Du, Bo and Tao, Dacheng},
-  journal={arXiv e-prints},
-  pages={arXiv--2207},
-  year={2022}
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  year={2023}
 }
 ```
 
