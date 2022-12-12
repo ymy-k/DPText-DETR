@@ -96,7 +96,6 @@ class TextVisualizer(Visualizer):
                 text = "score: {:.2f}".format(score)
                 self.draw_text(text, polygon[0], horizontal_alignment="left")
                 # you can also visualize the predicted point drift between decoder layers.
-                # a few polygon result see
 
     def draw_text(
         self,
