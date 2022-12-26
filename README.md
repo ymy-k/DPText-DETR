@@ -62,7 +62,7 @@ python setup.py build develop
 >
 >**ICDAR19 ArT (including rotated images)**: [BaiduNetdisk](https://pan.baidu.com/s/1zHW921lucH5mGC3nJLTSSg)(peeb)
 >
->**Inverse-Text (images):** [OneDrive](https://1drv.ms/u/s!AimBgYV7JjTlgccM-gUympw2fCwyHg?e=7OhZjZ) | [BaiduNetdisk](https://pan.baidu.com/s/1wKwdHErG-1u3Rn3jm5CeEw)(0wxm). *Note that some "test_poly.json" files are only used to read images.* **Inverse-Text is for research purpose only**. More details of Inverse-Text can be referred to the paper.
+>**Inverse-Text (images):** [OneDrive](https://1drv.ms/u/s!AimBgYV7JjTlgccVhlbD4I3z5QfmsQ?e=myu7Ue) | [BaiduNetdisk](https://pan.baidu.com/s/1A0JaNameuM0GZxch8wdm6g)(6a2n). *Note that some "test_poly.json" files are only used to read images.* **Inverse-Text is for research purpose only**. More details of Inverse-Text can be referred to the paper.
 
 >**Json files:** [OneDrive](https://1drv.ms/u/s!AimBgYV7JjTlgccNWKEMwwbJO4TYQw?e=ridXPV) | [BaiduNetdisk](https://pan.baidu.com/s/1bDE1z6c7z6wCTY5W-jJ3Qw)(44yt)
 
