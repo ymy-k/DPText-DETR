@@ -23,11 +23,11 @@ This is the official repo for the paper "DPText-DETR: Towards Better Scene Text 
 **Abstract.** Recently, Transformer-based methods, which predict polygon points or Bezier curve control points for localizing texts, are popular in scene text detection. However, these methods built upon detection transformer framework might achieve sub-optimal training efficiency and performance due to coarse positional query modeling. In addition, the point label form exploited in previous works implies the reading order of humans, which impedes the detection robustness from our observation. To address these challenges, this paper proposes a concise Dynamic Point Text DEtection TRansformer network, termed DPText-DETR. In detail, DPText-DETR directly leverages explicit point coordinates to generate position queries and dynamically updates them in a progressive way. Moreover, to improve the spatial inductive bias of non-local self-attention in Transformer, we present an Enhanced Factorized Self-Attention module which provides point queries within each instance with circular shape guidance. Furthermore, we design a simple yet effective positional label form to tackle the side effect of the previous form. To further evaluate the impact of different label forms on the detection robustness in real-world scenario, we establish an Inverse-Text test set containing 500 manually labeled images. Extensive experiments prove the high training efficiency, robustness, and state-of-the-art performance of our method on popular benchmarks.
 
 ## Updates
-***[29/11/2022]*** The Arxiv version paper is updated. The code and models are released.
+`[Nov.29, 2022]` The code and models are released. The Arxiv version paper is updated.
 
-***[12/07/2022]*** Inverse-Text is available.
+`[Jul.12, 2022]` Inverse-Text is available.
 
-***[10/07/2022]*** The paper is submitted to ArXiv. Inverse-Text test set will be available very soon. Work in progress.
+`[Jul.10, 2022]`The paper is submitted to ArXiv. Inverse-Text test set will be available very soon. Work in progress.
 
 ## Main Results
 
@@ -144,11 +144,6 @@ For ICDAR19 ArT, a file named `art_submit.json` will be saved in `output/r_50_po
 ```
 python demo/demo.py --config-file ${CONFIG_FILE} --input ${IMAGES_FOLDER_OR_ONE_IMAGE_PATH} --output ${OUTPUT_PATH} --opts MODEL.WEIGHTS <MODEL_PATH>
 ```
-
-## ToDo List
-
-- [ ] Update an online label processing version
-- [ ] Release a scene text spotter based on improved DPText-DETR
 
 ## Citation
 
