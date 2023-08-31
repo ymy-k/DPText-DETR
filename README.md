@@ -155,6 +155,9 @@ If you find DPText-DETR useful in your research, please consider citing:
   title={DPText-DETR: Towards Better Scene Text Detection with Dynamic Points in Transformer},
   author={Ye, Maoyuan and Zhang, Jing and Zhao, Shanshan and Liu, Juhua and Du, Bo and Tao, Dacheng},
   booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={37},
+  number={3},
+  pages={3241--3249},
   year={2023}
 }
 ```
